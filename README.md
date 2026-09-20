@@ -29,10 +29,9 @@ do {
   print(error)
 }
 ```
-<br/>
 
-## System Requirements
-- **macOS 14 Sonoma or later**
+## Testing
+To run the package test, run `swift test` from the package directory. The test will try to export the wallpaper currently set on the main screen as `wallpaper-test.png`. 
 
 ## Acknowledgments
 Window capture with SkyLight was based on [this PR](https://github.com/peterp/cmdcmd/pull/22) of [CmdCmd](https://github.com/peterp/cmdcmd/), licensed under [FSL-1.1-MIT](https://github.com/peterp/cmdcmd/blob/main/LICENSE).
