@@ -9,6 +9,7 @@
 ## Features
 
 - Easily get the wallpaper for any screen.
+- Uses the private SkyLight API to capture the window.
 - No screen recording or file permissions required.
 - Tested on macOS 14 and 27.
 
@@ -34,7 +35,7 @@ do {
 - **macOS 14 Sonoma or later**
 
 ## Acknowledgments
-Wallpaper capture was based on [this PR](https://github.com/peterp/cmdcmd/pull/22) of [CmdCmd](https://github.com/peterp/cmdcmd/), licensed under [FSL-1.1-MIT](https://github.com/peterp/cmdcmd/blob/main/LICENSE).
+Window capture with SkyLight was based on [this PR](https://github.com/peterp/cmdcmd/pull/22) of [CmdCmd](https://github.com/peterp/cmdcmd/), licensed under [FSL-1.1-MIT](https://github.com/peterp/cmdcmd/blob/main/LICENSE).
 
 ## License
 WallpaperKit is licensed under the MIT-License. See [`LICENSE`](/LICENSE) for more details.
